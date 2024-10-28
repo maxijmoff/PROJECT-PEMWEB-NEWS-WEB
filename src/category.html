@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../dist/main.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>IF NEWS</title>
+</head>
+<body class="bg-stone-200">
+	<div class="max-w-screen-xl mx-auto h-screen grid grid-rows-[auto_1fr_auto]">
+	<header class="px-5 mt-5 border-b border-stone-300 dark:border-stone-400 flex items-center justify-between h-16">
+		<a class="text-3xl font-extrabold text-red-800 uppercase dark:text-stone-200" href="">IF NEWS</a>
+		<nav class="hidden md:flex items-center"> 
+			<ul class="inline-flex items-center text-base">
+				<li><button class="bg-red-900 text-white font-bold py-1 px-2 rounded-lg mr-3 text-sm hover:bg-slate-500 hover:scale-105 transition duration-300">Login</button></li>
+				<li><button class="bg-red-900 text-white font-bold py-1 px-2 rounded-lg mr-3 text-sm hover:bg-slate-500 hover:scale-105 transition duration-300">Register</button></li>
+			</ul>
+		</nav>
+		<button class="inline-block md:hidden">
+			<svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+			</svg>
+		</button>
+	</header>
+
+	<div>
+		<div class="px-5 flex items-center">
+			<div class="text-breadcrums py-4 overflow-y-auto whitespace-nowrap flex items-center">
+				<a class="text-black hover:text-red-700 transition duration-300" href="home.html">
+					<svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+					</svg>
+				</a>
+				<span class="mx-2.5 text-header-btn dark:text-stone-500">
+					<svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+					</svg>
+				</span>
+				<a class="text-black hover:text-red-700 transition duration-300" href="trending.html">Trending</a>
+				<span class="mx-2.5 text-header-btn dark:text-stone-500">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+					</svg>
+				</span>
+				<a class="text-black hover:text-red-700 transition duration-300" href="category.html">Categories</a>
+			</div> 
+		</div>
+
+		<main class="px-5">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<a class="block w-full mb-10" href="">
+					<img class="w-full h-64 object-cover rounded-lg shadow-lg shadow-stone-400 dark:shadow-stone-700 transition-transform duration-500 transform hover:scale-105" src="style.jpg" alt="Ga Skena Ga Asik">
+					<div class="mt-4">
+						<h3 class="text-2xl font-bold text-red-900 dark:text-stone-200">SkenaOutfit</h3>
+						<p class="text-main-text dark:text-stone-200 mt-2">Kaos oversize dengan celana denim, dipadukan dengan sneakers putih. KATA KATA DONG KAK HARI INI.</p>
+					</div>
+				</a>
+
+				<a class="block w-full mb-10" href="">
+					<img class="w-full h-64 object-cover rounded-lg shadow-lg shadow-stone-400 dark:shadow-stone-700 transition-transform duration-500 transform hover:scale-105" src="jilbab.jpg" alt="Tren Hijab">
+					<div class="mt-4">
+						<h3 class="text-2xl font-bold text-red-900 dark:text-stone-200">Gen Z hijab</h3>
+						<p class="text-main-text dark:text-stone-200 mt-2">Gen Z hijabers dikenal inovatif dalam memadupadankan hijab dengan berbagai outfit, dari casual hingga formal. Mereka tidak ragu untuk bereksperimen dengan warna, motif, dan aksesori.</p>
+					</div>
+				</a>
+
+				<a class="block w-full mb-10" href="">
+					<img class="w-full h-64 object-cover rounded-lg shadow-lg shadow-stone-400 dark:shadow-stone-700 transition-transform duration-500 transform hover:scale-105" src="lukisan.jpg" alt="Abstrak">
+					<div class="mt-4">
+						<h3 class="text-2xl font-bold text-red-900 dark:text-stone-200">Abstrak Lukisan</h3>
+						<p class="text-main-text dark:text-stone-200 mt-2">"Setiap goresan adalah ekspresi jiwa, merayakan kebebasan berkreasi."</p>
+					</div>
+				</a>
+
+				<a class="block w-full mb-10" href="">
+					<img class="w-full h-64 object-cover rounded-lg shadow-lg shadow-stone-400 dark:shadow-stone-700 transition-transform duration-500 transform hover:scale-105" src="dior.jpg" alt="favorite bag">
+					<div class="mt-4">
+						<h3 class="text-2xl font-bold text-red-900 dark:text-stone-200">Dior</h3>
+						<p class="text-main-text dark:text-stone-200 mt-2">Tas favorite semua kalangan wanita didunia</p>
+					</div>
+				</a>
+			</div>
+		</main>
+	</div>
+
+	<footer class="border-t border-stone-300 px-2 bg-red-950 text-white py-4">
+		<div class="md:flex">
+			<div class="w-full mb-5 text-center">
+				<h6 class="font-bold text-main-text text-lg mb-3 uppercase dark:text-stone-200">Company</h6>
+				<ul class="text-main-text dark:text-stone-200">
+					<li><a class="inline-block py-2 hover:underline decoration-header-btn hover:text-header-btn underline-offset-3 transition-all duration-300" href="https://unsri.ac.id/">About Us</a></li>
+					<li><a class="inline-block py-2 hover:underline decoration-header-btn hover:text-header-btn underline-offset-3 transition-all duration-300" href="https://maps.app.goo.gl/mxcJ2okDWMDpJ1nB8">Location</a></li>
+				</ul>
+			</div>
+
+			<div class="w-full mb-5  text-center">
+				<h6 class="font-bold text-main-text text-lg mb-3 uppercase dark:text-stone-200">Content</h6>
+				<ul class="text-main-text dark:text-stone-200">
+					<li><a class="inline-block py-2 hover:underline decoration-header-btn hover:text-header-btn dark:hover:text-header-btn-light underline-offset-3 transition-all duration-300" href="#">Sources</a></li>
+					<li><a class="inline-block py-2 hover:underline decoration-header-btn hover:text-header-btn dark:hover:text-header-btn-light underline-offset-3 transition-all duration-300" href="#">Rights & Policy</a></li>
+				</ul>
+			</div>
+
+			<div class="w-full text-center">
+				<h6 class="font-bold text-main-text text-lg mb-3 uppercase dark:text-stone-200">Stay Connected</h6>
+				<ul class="text-main-text flex justify-center dark:text-stone-200">
+					<li class="mr-4"><a class="inline-block py-2 hover:underline dark:hover:text-header-btn-light decoration-header-btn underline-offset-3 transition-transform duration-500 transform hover:scale-105" href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+						</svg>
+					</a></li>
+					<li class="mr-4"><a class="inline-block py-2 hover:underline decoration-gray-900 dark:hover:text-header-btn-light underline-offset-3 transition-transform duration-500 transform hover:scale-105" href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+						</svg>
+					</a></li>
+					<li><a class="inline-block py-2 hover:underline decoration-gray-900 dark:hover:text-header-btn-light underline-offset-3 transition-transform duration-500 transform hover:scale-105" href="#">
+						<svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+						</svg>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
